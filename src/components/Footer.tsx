@@ -12,7 +12,6 @@ const QUICK_LINKS = [
   { label: 'Workflow', href: '#workflow' },
   { label: 'GitHub', href: '#github-projects' },
   { label: 'Tableau', href: '#tableau' },
-  { label: 'Experience', href: '#experience' },
   { label: 'Education', href: '#education' },
   { label: 'Certifications', href: '#certifications' },
   { label: 'Achievements', href: '#achievements' },

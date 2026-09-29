@@ -9,12 +9,17 @@
   }
   
   body {
-    @apply bg-slate-50 text-slate-900 antialiased selection:bg-cyan-500 selection:text-white;
+    @apply bg-slate-50 text-slate-900 antialiased selection:bg-cyan-600 selection:text-white;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
     min-height: 100vh;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  }
+
   .dark body {
-    @apply bg-slate-950 text-slate-100;
+    @apply bg-[#0b0f19] text-slate-100;
   }
 
   /* Custom scrollbar */
