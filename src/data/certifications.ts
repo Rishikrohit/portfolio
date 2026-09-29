@@ -1,0 +1,51 @@
+import { Certification } from '../types';
+
+export const CERTIFICATIONS: Certification[] = [
+  {
+    id: "power-bi-micro-course",
+    title: "Power BI Micro Course",
+    organization: "SkillCourse · ISO 9001:2015 (Cert ID: SC-A499109A9E)",
+    topics: ["Power BI", "DAX", "Data Modeling", "KPI Reporting", "Interactive Dashboards"],
+    certificateFile: "/images/cert-powerbi.png",
+    imageUrl: "/images/cert-powerbi.png",
+    date: "August 16, 2026",
+    category: "Power BI",
+  },
+  {
+    id: "python-30-days-micro-course",
+    title: "30 Days Python Micro Course",
+    organization: "SkillCourse · ISO 9001:2015 (Cert ID: SC-R6CYPKWRV5)",
+    topics: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Data Analysis"],
+    certificateFile: "/images/cert-python.png",
+    imageUrl: "/images/cert-python.png",
+    date: "August 16, 2026",
+    category: "Python",
+  },
+  {
+    id: "sql-micro-course",
+    title: "30-Days SQL Micro Course",
+    organization: "Skill Course (Learn More Pro) · ISO 9001:2015 (Cert No: SQ21T01)",
+    topics: ["SQL", "PostgreSQL", "JOINs", "Subqueries", "Window Functions"],
+    certificateFile: "/certificates/sql-micro-course.pdf",
+    imageUrl: "/images/sql-certificate.png",
+    date: "February 12, 2026",
+    category: "SQL",
+  },
+  {
+    id: "data-analysis-python-ibm",
+    title: "Data Analysis with Python (DA0101EN)",
+    organization: "IBM Developer Skills Network",
+    topics: ["Python", "Data Analysis", "Pandas", "Model Development"],
+    certificateFile: "/certificates/data-analysis-python.pdf",
+    date: "Jul 2025",
+    category: "Data Analytics",
+  },
+  {
+    id: "oracle-agentic-ai",
+    title: "Oracle Agentic AI Certified Foundations Associate (2026)",
+    organization: "Oracle",
+    topics: ["Agentic AI", "AI Foundations", "Autonomous Agents"],
+    date: "2026",
+    category: "AI",
+  },
+];
