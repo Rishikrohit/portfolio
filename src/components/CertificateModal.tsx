@@ -1,5 +1,4 @@
-import React from 'react';
-import { X, Award, ExternalLink, FileText, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { X, Award, FileText, CheckCircle2 } from 'lucide-react';
 import { Certification } from '../types';
 
 interface CertificateModalProps {

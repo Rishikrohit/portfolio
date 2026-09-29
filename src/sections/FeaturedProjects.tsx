@@ -8,7 +8,6 @@ import {
   TrendingUp, 
   FileText, 
   Presentation, 
-  ExternalLink,
   Eye,
   Download
 } from 'lucide-react';

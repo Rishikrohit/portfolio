@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, FileDown, Mail, BarChart3, Award, Code2, Sparkles, MapPin } from 'lucide-react';
+import { ArrowRight, FileDown, Mail, BarChart3, Award, Code2 } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../components/SocialIcons';
 import { PROFILE } from '../data/profile';
 import { SOCIAL_LINKS } from '../data/socialLinks';

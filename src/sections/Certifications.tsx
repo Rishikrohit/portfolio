@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Award, CheckCircle2, FileText, Calendar, ShieldCheck, Image as ImageIcon } from 'lucide-react';
+import { Award, CheckCircle2, FileText, Calendar, Image as ImageIcon } from 'lucide-react';
 import { CERTIFICATIONS } from '../data/certifications';
 import { Certification } from '../types';
 import { CertificateModal } from '../components/CertificateModal';
